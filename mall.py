@@ -3,7 +3,7 @@
 from bs4 import BeautifulSoup
 import requests
 import re
-from urlparse import urlparse, urlunparse
+from urllib.parse import urlparse, urlunparse
 
 class MallApi():
 

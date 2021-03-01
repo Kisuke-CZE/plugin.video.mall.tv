@@ -4,10 +4,10 @@
        version="0.0.15"
        provider-name="koudi">
   <requires>
-    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
     <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.kodiswift" />
+    <import addon="script.module.xbmcswift2" />
   </requires>
 
   <extension point="xbmc.python.pluginsource" library="addon.py">
